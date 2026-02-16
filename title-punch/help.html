@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Title Punch Help — Documentation for applying Title Punch effects, titles, and transitions to media with alpha channels in Final Cut Pro.">
+  <title>Title Punch Help — UsefulFX</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="/" class="nav-logo">UsefulFX</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      <ul class="nav-menu">
+        <li><a href="/" class="nav-link">Home</a></li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-link active">Products</a>
+          <ul class="dropdown-menu">
+            <li><a href="/nostalgia/">Nostalgia</a></li>
+            <li><a href="/title-punch/">Title Punch</a></li>
+            <li><a href="/survey/">Survey</a></li>
+            <li><a href="https://fxfactory.com/info/usefulfxtoolkit/" target="_blank" rel="noopener">Toolkit</a></li>
+          </ul>
+        </li>
+        <li><a href="mailto:support@usefulfx.com" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="product-banner">
+    <img src="../images/title-punch/help-banner.jpg" alt="Title Punch Help" class="banner-bg">
+    <div class="banner-content">
+      <h1>Title Punch Help</h1>
+      <p class="banner-sub">Apply Title Punch to Titles and Media with Alpha Channels</p>
+    </div>
+  </section>
+
+  <div class="product-subnav">
+    <div class="container">
+      <a href="/title-punch/" class="subnav-link">Home</a>
+      <a href="/title-punch/looks.html" class="subnav-link">Looks</a>
+      <a href="/title-punch/tutorials.html" class="subnav-link">Tutorials</a>
+      <a href="/title-punch/help.html" class="subnav-link active">Help</a>
+    </div>
+  </div>
+
+  <div class="doc-content">
+    <div class="container">
+
+      <!-- Alpha Channel Information -->
+      <h2 id="alpha-channel">Alpha Channel Information</h2>
+      <p>Title Punch is designed to enhance media that contains transparency information in the Alpha channel. Titles and transparent media (PNG images, keyed clips) are ideal candidates for the effects. You can verify alpha channel presence through FCPX's View menu and Alpha channel option.</p>
+      <img src="../images/title-punch/help-alpha-channel.jpg" alt="Alpha channel in FCPX View menu">
+      <img src="../images/title-punch/help-before-after.jpg" alt="Before and after Title Punch">
+      <p class="img-caption">Before and after Title Punch</p>
+
+      <!-- Title Background Object -->
+      <h2 id="title-background">Title Background Object</h2>
+      <p>Motion's Title Background Object can interfere with Title Punch effects by pulling in the alpha information from underneath it. The solution is to disable or remove background clips when using titles with Title Background objects.</p>
+      <div class="doc-images">
+        <img src="../images/title-punch/help-title-bg-a.jpg" alt="Title Background step A">
+        <img src="../images/title-punch/help-title-bg-b.jpg" alt="Title Background step B">
+        <img src="../images/title-punch/help-title-bg-c.jpg" alt="Title Background step C">
+        <img src="../images/title-punch/help-title-bg-d.jpg" alt="Title Background step D">
+        <img src="../images/title-punch/help-title-bg-e.jpg" alt="Title Background step E">
+      </div>
+      <img src="../images/title-punch/help-title-bg-snap.jpg" alt="Title Background snapshot">
+      <img src="../images/title-punch/help-title-bg-snap2.jpg" alt="Title Background snapshot 2">
+      <img src="../images/title-punch/help-motion-snap.jpg" alt="Motion snapshot">
+
+      <!-- Applying Templates -->
+      <h2 id="applying">Applying Templates</h2>
+      <p>Two approaches for applying templates:</p>
+      <ol>
+        <li>Select a clip or edit point, then double-click the desired effect, transition, or title.</li>
+        <li>Drag templates directly from the browser to the timeline for clips, edits, or blank spots.</li>
+      </ol>
+      <img src="../images/title-punch/help-apply-timeline.png" alt="Select and double-click">
+      <p class="img-caption">Select and double-click</p>
+      <img src="../images/title-punch/help-apply-timeline-2.png" alt="Drag to timeline">
+      <p class="img-caption">Drag to timeline</p>
+      <img src="../images/title-punch/help-apply-timeline-3.jpg" alt="Applied in timeline">
+      <p class="img-caption">Applied in timeline</p>
+
+      <!-- Texture Effects -->
+      <h2 id="texture-effects">Texture Effects</h2>
+      <p>Decay, Letters, Smudged, Splotched, and Subtext add texture to your titles with optional backgrounds. They share common controls.</p>
+      <img src="../images/title-punch/help-effect-snap.jpg" alt="Texture effect snapshot">
+
+      <h3>Range &amp; Spread</h3>
+      <img src="../images/title-punch/help-decay-range.jpg" alt="Decay Range parameter">
+      <img src="../images/title-punch/help-decay-spread.jpg" alt="Decay Spread parameter">
+
+      <h3>Backdrop</h3>
+      <p>Controls for backdrop look, distort look, and backdrop image.</p>
+      <img src="../images/title-punch/help-decay-backdrop-look.jpg" alt="Backdrop Look parameter">
+      <img src="../images/title-punch/help-decay-distort-look.jpg" alt="Distort Look parameter">
+      <img src="../images/title-punch/help-decay-backdrop.jpg" alt="Backdrop image parameter">
+
+      <h3>Distort &amp; Edges</h3>
+      <img src="../images/title-punch/help-decay-distort-darkness.jpg" alt="Distort Darkness parameter">
+      <img src="../images/title-punch/help-decay-edges.jpg" alt="Edges parameter">
+
+      <h3>Letters Extras</h3>
+      <p>Letters includes additional Stain and Letter Texture controls.</p>
+      <img src="../images/title-punch/help-letters-stain.jpg" alt="Letters Stain parameter">
+      <img src="../images/title-punch/help-letters-texture.jpg" alt="Letters Texture parameter">
+
+      <h3>Subtext Extras</h3>
+      <p>Subtext includes Backdrop and Backdrop Blend controls.</p>
+      <img src="../images/title-punch/help-subtext-backdrop.jpg" alt="Subtext Backdrop parameter">
+      <img src="../images/title-punch/help-subtext-backdrop-blend.jpg" alt="Subtext Backdrop Blend parameter">
+
+      <!-- Drops -->
+      <h2 id="drops">Drops</h2>
+      <p>A particle-based effect with Start Drops and Drops per Second parameters. Due to a limitation in FCPX, you cannot animate the particles directly.</p>
+      <img src="../images/title-punch/help-drops-style.jpg" alt="Drops Style parameter">
+      <img src="../images/title-punch/help-drops-backdrop-look.jpg" alt="Drops Backdrop Look parameter">
+      <img src="../images/title-punch/help-drops-backdrop.jpg" alt="Drops Backdrop parameter">
+      <img src="../images/title-punch/help-drops-random-pattern.jpg" alt="Drops Random Pattern parameter">
+
+      <!-- Disintegrate & Melt -->
+      <h2 id="disintegrate">Disintegrate &amp; Melt</h2>
+      <p>Similar to grunge effects but without background images — these effects eat away at your title.</p>
+      <img src="../images/title-punch/help-disintegrate-amount.jpg" alt="Disintegrate Amount parameter">
+
+      <!-- Cut-Out -->
+      <h2 id="cut-out">Cut-Out</h2>
+      <p>A specialized effect with style variations.</p>
+      <img src="../images/title-punch/help-cutout-snap.jpg" alt="Cut-Out snapshot">
+      <img src="../images/title-punch/help-cutout-style.jpg" alt="Cut-Out Style parameter">
+
+      <!-- Hole Punch -->
+      <h2 id="hole-punch">Hole Punch</h2>
+      <p>Creates composite effects over background clips with optional inversion capability using the Invert Mask button.</p>
+      <img src="../images/title-punch/help-hole-punch-bg.jpg" alt="Hole Punch background">
+      <img src="../images/title-punch/help-hole-punch-snap.jpg" alt="Hole Punch snapshot">
+      <img src="../images/title-punch/help-hole-punch-invert.jpg" alt="Hole Punch invert">
+      <img src="../images/title-punch/help-hole-punch-invert-mask.jpg" alt="Hole Punch Invert Mask parameter">
+
+      <!-- Rack Defocus & Rack Soft Focus -->
+      <h2 id="rack-defocus">Rack Defocus &amp; Rack Soft Focus</h2>
+      <p>These effects require Drop Zone input. Defocus has control over the flaring shape but renders slowly. Both feature built-in animation curves with Manual Focus Point keyframing.</p>
+      <img src="../images/title-punch/help-rack-focus.jpg" alt="Rack Focus parameters">
+      <img src="../images/title-punch/help-rack-defocus-focus.jpg" alt="Rack Defocus Focus parameter">
+
+      <!-- Reflection & Shadow -->
+      <h2 id="reflection-shadow">Reflection &amp; Shadow</h2>
+      <p>Vignette templates featuring special camera-animation controls to manage Camera 1 and Camera 2 positions without extensive curve editing. Both allow custom clip substitution via Drop Zones.</p>
+      <img src="../images/title-punch/help-reflection-camera.jpg" alt="Reflection camera controls">
+      <img src="../images/title-punch/help-shadow-camera.jpg" alt="Shadow camera controls">
+      <img src="../images/title-punch/help-reflection-dropzone.jpg" alt="Reflection Drop Zone">
+      <img src="../images/title-punch/help-shadow-dropzone.jpg" alt="Shadow Drop Zone">
+      <img src="../images/title-punch/help-shadow-shape.jpg" alt="Shadow shape options">
+      <p class="img-caption">Shadow shape options</p>
+
+      <!-- Speed -->
+      <h2 id="speed">Speed</h2>
+      <p>Motion effect with direction, flare size, interference, and clip color options.</p>
+      <div class="doc-images">
+        <img src="../images/title-punch/help-speed-direction.jpg" alt="Speed Direction parameter">
+        <img src="../images/title-punch/help-speed-flare.jpg" alt="Speed Flare parameter">
+        <img src="../images/title-punch/help-speed-interference.jpg" alt="Speed Interference parameter">
+        <img src="../images/title-punch/help-speed-clip-color.jpg" alt="Speed Clip Color parameter">
+      </div>
+
+      <!-- Stage -->
+      <h2 id="stage">Stage</h2>
+      <p>Light layout, filter, and shape controls. Go nuts with this one.</p>
+      <div class="doc-images">
+        <img src="../images/title-punch/help-stage-layout.jpg" alt="Stage Layout parameter">
+        <img src="../images/title-punch/help-stage-filter.jpg" alt="Stage Filter parameter">
+        <img src="../images/title-punch/help-stage-shape.jpg" alt="Stage Shape parameter">
+      </div>
+
+      <!-- Text Flare -->
+      <h2 id="text-flare">Text Flare</h2>
+      <p>Adjust the Width parameter to control the flare spread.</p>
+      <img src="../images/title-punch/help-text-flare-width.jpg" alt="Text Flare Width parameter">
+
+      <!-- Transitions -->
+      <h2 id="transitions">Transitions</h2>
+      <p>Burning Scan, Slow Burn, and Transmogrify are grunge-style transitions. Each includes a Look parameter to test different intermediary textures.</p>
+      <img src="../images/title-punch/help-burning-scan-look.jpg" alt="Transition Look options">
+      <p class="img-caption">Transition Look options</p>
+
+      <!-- Drawing Titles -->
+      <h2 id="drawing-titles">Drawing Titles</h2>
+      <p>Eraser, Oops, Redact, and Underline are Titles that get placed on top of other Titles in order to draw over them. Each offers multiple styles and built-in animation for shape drawing.</p>
+      <img src="../images/title-punch/help-eraser-snap.jpg" alt="Eraser snapshot">
+      <img src="../images/title-punch/help-eraser-style.jpg" alt="Eraser Style parameter">
+      <img src="../images/title-punch/help-oops-shape.jpg" alt="Oops Shape parameter">
+      <img src="../images/title-punch/help-oops-strokes.jpg" alt="Oops Strokes parameter">
+      <img src="../images/title-punch/help-underline-style.jpg" alt="Underline Style parameter">
+
+      <!-- Eraser Workaround -->
+      <h2 id="eraser-workaround">Eraser Workaround</h2>
+      <p>The Eraser's hole-punching behavior can cause problems with background clips. The workaround: make a compound clip with just the two titles — do not include the background clip(s).</p>
+      <img src="../images/title-punch/help-eraser-snap-bg.jpg" alt="Eraser with background issue">
+      <img src="../images/title-punch/help-eraser-compound1.jpg" alt="Eraser compound clip step 1">
+      <img src="../images/title-punch/help-compound-clip.jpg" alt="Creating a compound clip">
+      <p class="img-caption">Creating a compound clip</p>
+      <img src="../images/title-punch/help-eraser-compound3.jpg" alt="Result after compound clip">
+      <p class="img-caption">Result after compound clip</p>
+
+      <!-- Flip Titles -->
+      <h2 id="flip-titles">Flip Titles</h2>
+      <p>Flip24, Flip25, and Flip29.97 are frame-rate-specific titles for different project settings.</p>
+      <img src="../images/title-punch/help-flip-snap.jpg" alt="Flip title snapshot">
+      <img src="../images/title-punch/help-flip-cartoon.jpg" alt="Flip cartoon style">
+
+    </div>
+  </div>
+
+  <section class="section cta-section text-center">
+    <div class="container">
+      <div class="btn-group">
+        <a href="https://fxfactory.com/buy/usefulfxtitlepunch/" class="btn btn-primary" target="_blank" rel="noopener">Buy</a>
+        <a href="https://fxfactory.com/install/usefulfxtitlepunch/" class="btn btn-secondary" target="_blank" rel="noopener">Try</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-brand">UsefulFX</p>
+        <p><a href="mailto:support@usefulfx.com">support@usefulfx.com</a></p>
+        <p class="footer-copy">&copy; 2026 UsefulFX. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
